@@ -6,7 +6,7 @@ import java.util.Optional;
 
 public class Main {
 
-	public static void Main(String[] args) {
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			
 		Etudiant e1 = new Etudiant ("Adam",LocalDate.of(2001, 11, 4),"sdcvs@gmail.com");
