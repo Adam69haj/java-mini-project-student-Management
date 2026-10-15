@@ -13,8 +13,6 @@ public class main {
 		Etudiant e2 = new Etudiant ("Josef",LocalDate.of(2010, 7, 22),"Josef123@gmail.com");
 		Club c1 = new Club("fss",new HashSet<>());
 		
-		
-		
 		System.out.println(c1.addMembre(e1));
 		System.out.println(c1.addMembre(e2));
 		System.out.println(c1.getMembres());
@@ -24,7 +22,6 @@ public class main {
 		
 		c1.setEmailMember("sdcvs@gmail.com", "sdfeafas@gmail.com");
 		System.out.println(c1.getMembres());
-		
 		
 		
 	}

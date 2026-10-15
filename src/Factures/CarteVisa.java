@@ -2,6 +2,8 @@ package Factures;
 
 import java.time.LocalDate;
 
+import lombok.ToString;
+@ToString (callSuper = true)
 public class CarteVisa extends Reglement {
 	
 	private String numCarte;
