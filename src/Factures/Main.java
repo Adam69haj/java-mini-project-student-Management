@@ -28,7 +28,7 @@ public class Main {
 		}
 		//////////////////////////////////////////
 		/// test bd
-		IDAOFactures fauxDao = new IDAOFactures() {
+		IDAOFactures fauxDao = new IDAOFactures() { //class anonyme
     		private List<Facture> bdd = new ArrayList<>();
     	@Override
     	public void save(Facture f) {

@@ -4,9 +4,9 @@ import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Optional;
 
-public class main {
+public class Main {
 
-	public static void main(String[] args) {
+	public static void Main(String[] args) {
 		// TODO Auto-generated method stub
 			
 		Etudiant e1 = new Etudiant ("Adam",LocalDate.of(2001, 11, 4),"sdcvs@gmail.com");
@@ -22,6 +22,7 @@ public class main {
 		
 		c1.setEmailMember("sdcvs@gmail.com", "sdfeafas@gmail.com");
 		System.out.println(c1.getMembres());
+		//c1.getMembres().forEach(System.out::println);
 		
 		
 	}

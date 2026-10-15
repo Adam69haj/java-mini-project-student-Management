@@ -16,7 +16,7 @@ public class Club {
 	private String nom;
 	@Getter
 	private Set<Etudiant> membres;//set for the students //= new HashSet<Etudiant>(); we don't need it
-	
+	//set est une interface pas class comme hashset or class standard du JDK comme (optional,sys,string)
 	
 	//constructor
 	/*
@@ -62,7 +62,7 @@ public class Club {
 			Optional<Etudiant> e = chercheMembre(email1);
 			if (e.isPresent()) {
 				Etudiant e1 = e.get();
-				membres.remove(email1);
+				membres.remove(e1);
 				e1.setEmail(email2);
 				addMembre(e1);
 				}
