@@ -74,10 +74,4 @@ Execute `src/Factures/Main.java`:
 - Generates invoices with mixed payments (Cash, Cheque, Visa).
 - Tests persistence verification and payment report rendering through the DAO service.
 
----
-
-## 👨‍💻 Author
-- **University:** Faculty of Economics and Management of Sfax (FSEGS)
-- **Degree:** LFI 3 (Computer Science for Management)
-- **Course:** JEE Development (2026/2027)
 
