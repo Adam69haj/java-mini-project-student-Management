@@ -1,0 +1,19 @@
+# Compiled binary files
+bin/
+target/
+*.class
+
+# Eclipse & STS settings
+.settings/
+.project
+.classpath
+
+# VS Code settings
+.vscode/
+
+# GitHub Copilot / Agents
+.github/
+
+# Log files
+*.log
+
